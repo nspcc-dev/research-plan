@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="343px" preserveAspectRatio="none" style="width:1042px;height:343px;" version="1.1" viewBox="0 0 1042 343" width="1042px" zoomAndPan="magnify"><defs/><g><!--entity root--><rect fill="#90EE90" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="48" x="380" y="8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="390" y="30.9951">root</text><!--entity RU--><rect fill="#90EE90" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="73" x="779.5" y="104"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="53" x="789.5" y="126.9951">Loc: RU</text><!--entity EU--><rect fill="#90EE90" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="72" x="277" y="104"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="287" y="126.9951">Loc: EU</text><!--entity US--><!--entity SSD--><rect fill="#FFFFFF" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="112" x="440" y="104"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="92" x="450" y="126.9951">Storage: SSD</text><!--entity City--><rect fill="#90EE90" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="89" x="247.5" y="200"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="257.5" y="222.9951">City: Milan</text><!--entity N1--><!--entity N2--><!--entity N3--><rect fill="#90EE90" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="70" x="216" y="296"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="226" y="318.9951">Node 3</text><!--entity N4--><rect fill="#90EE90" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="70" x="321" y="296"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="331" y="318.9951">Node 4</text><!--entity N5--><rect fill="#90EE90" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="70" x="426" y="296"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="436" y="318.9951">Node 5</text><!--entity N6--><rect fill="#90EE90" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="70" x="531" y="296"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="541" y="318.9951">Node 6</text><!--entity N7--><rect fill="#90EE90" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="70" x="637" y="296"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="647" y="318.9951">Node 7</text><!--entity N8--><rect fill="#90EE90" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="70" x="742" y="296"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="752" y="318.9951">Node 8</text><!--entity N9--><rect fill="#90EE90" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="70" x="847" y="296"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="857" y="318.9951">Node 9</text><!--entity N10--><rect fill="#90EE90" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="79" x="952.5" y="296"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="962.5" y="318.9951">Node 10</text><!--link root to RU--><path d="M428.234,32.529 C496.136,48.021 688.852,91.99 774.311,111.488 " fill="none" id="root-RU" style="stroke: #006400; stroke-width: 1.0;"/><polygon fill="#006400" points="779.289,112.624,771.4035,106.7233,774.4141,111.5124,769.625,114.5231,779.289,112.624" style="stroke: #006400; stroke-width: 1.0;"/><!--link root to EU--><path d="M387.309,44.241 C372.044,60.009 349.43,83.369 333.161,100.174 " fill="none" id="root-EU" style="stroke: #006400; stroke-width: 1.0;"/><polygon fill="#006400" points="329.585,103.868,338.7183,100.1825,333.0622,100.2751,332.9696,94.619,329.585,103.868" style="stroke: #006400; stroke-width: 1.0;"/><!--link root to US--><!--link root to SSD--><path d="M420.874,44.241 C436.307,60.009 459.169,83.369 475.617,100.174 " fill="none" id="root-SSD" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="479.233,103.868,475.7961,94.6383,475.7355,100.2948,470.079,100.2342,479.233,103.868" style="stroke: #000000; stroke-width: 1.0;"/><!--link EU to City--><path d="M309.148,140.241 C305.714,155.612 300.669,178.196 296.939,194.891 " fill="none" id="EU-City" style="stroke: #006400; stroke-width: 1.0;"/><polygon fill="#006400" points="295.827,199.868,301.6932,191.9568,296.9172,194.9883,293.8857,190.2124,295.827,199.868" style="stroke: #006400; stroke-width: 1.0;"/><!--link City to N3--><path d="M284.48,236.241 C277.776,251.6116 267.925,274.1957 260.643,290.8906 " fill="none" id="City-N3" style="stroke: #006400; stroke-width: 1.0;"/><polygon fill="#006400" points="258.472,295.8683,265.7367,289.2182,260.4711,291.2853,258.4039,286.0197,258.472,295.8683" style="stroke: #006400; stroke-width: 1.0;"/><!--link City to N4--><path d="M303.739,236.241 C314.294,251.7441 329.846,274.5856 341.24,291.3211 " fill="none" id="City-N4" style="stroke: #006400; stroke-width: 1.0;"/><polygon fill="#006400" points="344.336,295.8683,342.5771,286.1778,341.5219,291.7354,335.9644,290.6803,344.336,295.8683" style="stroke: #006400; stroke-width: 1.0;"/><!--link City to N5--><path d="M322.605,236.0227 C351.707,252.2097 395.447,276.5384 425.939,293.4984 " fill="none" id="City-N5" style="stroke: #006400; stroke-width: 1.0;"/><polygon fill="#006400" points="430.338,295.9454,424.4165,288.0754,425.9683,293.5153,420.5284,295.067,430.338,295.9454" style="stroke: #006400; stroke-width: 1.0;"/><!--link City to N6--><path d="M336.633,234.3119 C389.224,252.3543 475.808,282.0583 526.203,299.3471 " fill="none" id="City-N6" style="stroke: #006400; stroke-width: 1.0;"/><polygon fill="#006400" points="530.965,300.9807,523.7487,294.2781,526.2352,299.3592,521.1542,301.8457,530.965,300.9807" style="stroke: #006400; stroke-width: 1.0;"/><!--link RU to N7--><path d="M802.967,140.196 C776.622,174.957 717.093,253.5016 688.26,291.5463 " fill="none" id="RU-N7" style="stroke: #006400; stroke-width: 1.0;"/><polygon fill="#006400" points="684.9,295.9794,693.5236,291.2219,687.9197,291.9943,687.1474,286.3904,684.9,295.9794" style="stroke: #006400; stroke-width: 1.0;"/><!--link RU to N8--><path d="M812.47,140.196 C805.364,174.816 789.344,252.8638 781.499,291.0803 " fill="none" id="RU-N8" style="stroke: #006400; stroke-width: 1.0;"/><polygon fill="#006400" points="780.494,295.9794,786.2223,287.9677,781.4996,291.0816,778.3858,286.3588,780.494,295.9794" style="stroke: #006400; stroke-width: 1.0;"/><!--link RU to N9--><path d="M821.973,140.196 C833.999,174.816 861.111,252.8638 874.386,291.0803 " fill="none" id="RU-N9" style="stroke: #006400; stroke-width: 1.0;"/><polygon fill="#006400" points="876.088,295.9794,876.913,286.1652,874.4472,291.2563,869.3561,288.7904,876.088,295.9794" style="stroke: #006400; stroke-width: 1.0;"/><!--link RU to N10--><path d="M831.929,140.196 C864.26,175.098 937.478,254.1409 972.555,292.0082 " fill="none" id="RU-N10" style="stroke: #006400; stroke-width: 1.0;"/><polygon fill="#006400" points="976.234,295.9794,973.0532,286.6583,972.8365,292.311,967.1838,292.0944,976.234,295.9794" style="stroke: #006400; stroke-width: 1.0;"/><!--link US to N1--><!--link US to N2--><!--link SSD to N2--><!--link SSD to N4--><path d="M483.329,140.196 C457.716,174.957 399.841,253.5016 371.808,291.5463 " fill="none" id="SSD-N4" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="368.541,295.9794,377.1006,291.1077,371.5075,291.9545,370.6607,286.3614,368.541,295.9794" style="stroke: #000000; stroke-width: 1.0;"/><!--link SSD to N5--><path d="M492.832,140.196 C486.481,174.675 472.195,252.2274 465.124,290.6104 " fill="none" id="SSD-N5" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="464.135,295.9794,469.6994,287.853,465.0409,291.0621,461.8318,286.4036,464.135,295.9794" style="stroke: #000000; stroke-width: 1.0;"/><!--link SSD to N6--><path d="M502.335,140.196 C515.09,174.816 543.845,252.8638 557.924,291.0803 " fill="none" id="SSD-N6" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="559.729,295.9794,560.3707,286.1515,558.0003,291.2877,552.8641,288.9173,559.729,295.9794" style="stroke: #000000; stroke-width: 1.0;"/><!--link SSD to N8--><path d="M521.432,140.196 C573.573,175.452 692.324,255.7455 747.636,293.1453 " fill="none" id="SSD-N8" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="751.827,295.9794,746.613,287.6239,747.6853,293.1782,742.1311,294.2506,751.827,295.9794" style="stroke: #000000; stroke-width: 1.0;"/><!--link SSD to N9--><path d="M534.365,140.107 C568.361,155.403 619.248,178.639 663,200 C727.73,231.603 802.043,270.514 845.336,293.4506 " fill="none" id="SSD-N9" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="849.943,295.8931,843.8642,288.144,845.5252,293.5515,840.1177,295.2125,849.943,295.8931" style="stroke: #000000; stroke-width: 1.0;"/><!--link SSD to N10--><path d="M550.043,140.141 C596.276,155.089 664.436,177.798 723,200 C803.691,230.59 896.112,270.5078 948.919,293.7925 " fill="none" id="SSD-N10" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="953.59,295.8546,946.973,288.5598,949.0161,293.8347,943.7412,295.8779,953.59,295.8546" style="stroke: #000000; stroke-width: 1.0;"/><!--link N1 to N2--><!--link N2 to N3--><!--link N3 to N4--><!--link N4 to N5--><!--link N5 to N6--><!--link N6 to N7--><!--link N7 to N8--><!--link N8 to N9--><!--link N9 to N10--><!--
+@startuml
+skinparam monochrome false
+skinparam shadowing false
+skinparam ParticipantPadding 95
+
+
+storage root  #lightgreen
+storage "Loc: RU" as RU #lightgreen
+storage "Loc: EU" as EU #lightgreen
+storage "Loc: US" as US  #white
+
+storage "Storage: SSD" as SSD  #white
+
+storage "City: Milan" as City  #lightgreen
+
+storage root  #lightgreen
+
+storage "Node 1" as N1 #white
+storage "Node 2" as N2  #white
+storage "Node 3" as N3  #lightgreen
+storage "Node 4" as N4  #lightgreen
+storage "Node 5" as N5  #lightgreen
+storage "Node 6" as N6  #lightgreen
+storage "Node 7" as N7  #lightgreen
+storage "Node 8" as N8  #lightgreen
+storage "Node 9" as N9 #lightgreen
+storage "Node 10" as N10  #lightgreen
+
+root -down-> RU  #darkgreen
+root -down-> EU #darkgreen
+root -down-> US  #black
+
+root -down-> SSD #black
+
+hide US
+hide N1
+hide N2
+
+
+
+EU -down-> City #darkgreen
+
+City -down-> N3 #darkgreen
+City -down-> N4 #darkgreen
+City -down-> N5 #darkgreen
+City -down-> N6 #darkgreen
+
+RU - -down-> N7 #darkgreen
+RU - -down-> N8 #darkgreen
+RU - -down-> N9 #darkgreen
+RU - -down-> N10 #darkgreen
+
+
+US - -down-> N1 #black
+US - -down-> N2 #black
+
+
+SSD - -down-> N2 #black
+SSD - -down-> N4 #black
+SSD - -down-> N5 #black
+SSD - -down-> N6 #black
+SSD - -down-> N8 #black
+SSD - -down-> N9 #black
+SSD - -down-> N10 #black
+
+N1 -[hidden]right-> N2
+N2 -[hidden]right-> N3
+N3 -[hidden]right-> N4
+N4 -[hidden]right-> N5
+N5 -[hidden]right-> N6
+N6 -[hidden]right-> N7
+N7 -[hidden]right-> N8
+N8 -[hidden]right-> N9
+N9 -[hidden]right-> N10
+
+
+@enduml
+
+PlantUML version 1.2019.01(Sat Feb 09 15:32:04 UTC 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.7.0_25-b15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

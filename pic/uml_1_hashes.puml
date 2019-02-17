@@ -1,0 +1,43 @@
+@startuml
+
+skinparam monochrome true
+skinparam shadowing false
+skinparam ParticipantPadding 120
+
+
+
+rnote over Verifier #FFFFFF
+
+ * Выбираем группу хранения для проверки
+
+ * Получаем по функции размещения список 
+    узлов отвечающих за хранение данных 
+    выбранной группы
+
+ * Выбираем гомоморфный хеш 1го уровня для 
+    проверки
+ 
+endrnote
+
+Verifier-> "Placement Group" : Запрашиваем произвольное число хешей для \nвыбранной зоны (хэш 1го уровня)
+
+
+"Placement Group" -> "Placement Group" : Так как зоны хэшей 1го уровня кратны максимальному \nразмеру объекта, выделяем проверяемые объекты и \nформируем необходимое количество гомоморфных хешей 2го уровня 
+activate "Placement Group"
+deactivate "Placement Group"
+
+
+Verifier<- "Placement Group" : Возвращаем запрошенное количество \nсгенерированных гомоморфных хешей \nH(a), H(b), ... H(n)
+
+rnote over Verifier #FFFFFF
+
+Checks H(A), где A - выбранная зона для проверки
+
+if H(A) = H(a)*H(b) ... H(n):
+Accepts the check, marks as valid
+
+endrnote
+
+
+
+@enduml

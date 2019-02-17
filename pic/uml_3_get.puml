@@ -1,0 +1,37 @@
+@startuml
+
+skinparam monochrome true
+skinparam shadowing false
+skinparam ParticipantPadding 95
+'title Message Style - Sequence Diagram
+
+"Node A" ->  "Node A" : Получить Placement Group by the actual \nNetwork Map, используя Функцию \nразмещения
+activate "Node A"
+deactivate "Node A"
+
+"Node A" <-> "Placement Group" : Получить метаданные и проверить \nна линкованные объекты
+
+||10||
+
+group For each linked object
+
+||25||
+
+"Node A" <- "Placement Group" : Uploads the object
+
+"Node A" ->  "Node A" :  Проверить коректность \nзагруженного объекта
+activate "Node A"
+deactivate "Node A"
+
+||25||
+
+end 
+
+||25||
+
+
+"Node A" ->  "Node A" :  Forms the requested file from \nthe linked objects
+activate "Node A"
+deactivate "Node A"
+
+@enduml

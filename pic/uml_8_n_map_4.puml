@@ -1,0 +1,103 @@
+@startuml
+
+
+skinparam shadowing false
+skinparam ParticipantPadding 95
+'title Message Style - Sequence Diagram
+
+
+package "Network map" as NM {
+
+
+storage "Loc: Ca" as CA #white
+
+package "Container" as CN {
+storage root #lightgreen
+storage "Loc: US" as US #lightgreen
+storage "Loc: EU" as EU #white
+storage "Loc: RU" as RU #white
+storage "Loc: Ja" as JA #lightgreen
+
+
+
+
+
+storage "<math>N_1</math>" as N1 #white
+storage "<math>N_2</math>" as N2 #lightgreen
+storage "<math>N_3</math>" as N3 #white
+storage "<math>N_4</math>" as N4 #lightgreen
+storage "<math>N_5</math>" as N5  #white
+storage "<math>N_6</math>" as N6  #white
+storage "<math>N_7</math>" as N7  #white
+storage "<math>N_8</math>" as N8  #white
+storage "<math>N_9</math>" as N9  #white
+storage "<math>N_10</math>" as N10  #white
+storage "<math>N_11</math>" as N11  #white
+storage "<math>N_12</math>" as N12  #white
+storage "<math>N_13</math>" as N13 #white
+storage "<math>N_14</math>" as N14  #white
+storage "<math>N_15</math>" as N15 #lightgreen
+storage "<math>N_16</math>" as N16 #lightgreen
+
+
+
+}
+
+storage "<math>N_17</math>" as N17  #white
+storage "<math>N_18</math>" as N18  #white
+storage "<math>N_19</math>" as N19  #white
+storage "<math>N_20</math>" as N20  #white
+
+
+}
+
+
+
+root -down-> EU #black
+root -down-> US #black
+root -down---> RU #black
+root -down---> JA #black
+
+root -down-> CA #black
+
+US -down-> N1 #black
+US -down-> N2 #black
+US -down-> N3 #black
+US -down-> N4 #black
+
+EU -down-> N5 #black
+EU -down-> N6 #black
+EU -down-> N7 #black
+EU -down-> N8 #black
+
+RU -down-> N9 #black
+RU -down-> N10 #black
+RU -down-> N11 #black
+RU -down-> N12 #black
+
+JA -down-> N13 #black
+JA -down-> N14 #black
+JA -down-> N15 #black
+JA -down-> N16 #black
+
+JA -down-> N17 #black
+
+CA -down-> N18 #black
+CA -down-> N19 #black
+CA -down-> N20 #black
+
+
+N1 -[hidden]right-> N2
+N2 -[hidden]right-> N3
+N3 -[hidden]right-> N4
+N4 -[hidden]right-> N5
+N5 -[hidden]right-> N6
+N6 -[hidden]right-> N7
+N7 -[hidden]right-> N8
+N8 -[hidden]right-> N9
+N9 -[hidden]right-> N10
+
+
+
+
+@enduml

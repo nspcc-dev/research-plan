@@ -1,0 +1,6 @@
+*.aux
+*.log
+*.out
+*.ps
+*.toc
+pic/*-eps-converted-to.pdf

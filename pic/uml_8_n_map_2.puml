@@ -1,0 +1,70 @@
+@startuml
+
+skinparam monochrome true
+skinparam shadowing false
+skinparam ParticipantPadding 95
+'title Message Style - Sequence Diagram
+
+
+storage root  #white
+storage "Loc: RU" as RU  #white
+storage "Loc: EU" as EU #white
+
+
+storage "Storege: SSD" as SSD #white
+
+storage "City: Milan" as City #white
+
+
+
+
+storage "Node 4" as N4 #white
+storage "Node 5" as N5 #white
+storage "Node 6" as N6 #white
+storage "Node 8" as N8 #white
+storage "Node 9" as N9 #white
+storage "Node 10" as N10  #white
+
+root -down-> RU
+root -down-> EU
+
+
+root -down-> SSD
+
+
+EU -down-> City
+
+
+City -down-> N4
+City -down-> N5
+City -down-> N6
+
+
+RU --down-> N8
+RU --down-> N9
+RU --down-> N10
+
+
+
+
+
+
+SSD --down-> N4
+SSD --down-> N5
+SSD --down-> N6
+SSD --down-> N8
+SSD --down-> N9
+SSD --down-> N10
+
+
+N4 -[hidden]right-> N5
+N5 -[hidden]right-> N6
+N6 -[hidden]right-> N8
+N8 -[hidden]right-> N9
+N9 -[hidden]right-> N10
+
+
+' SSD -[hidden]right-> HDD
+
+
+@enduml

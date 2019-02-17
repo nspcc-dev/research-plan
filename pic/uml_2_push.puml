@@ -1,0 +1,53 @@
+@startuml
+
+skinparam monochrome true
+skinparam shadowing false
+skinparam ParticipantPadding 95
+'title Message Style - Sequence Diagram
+
+rnote over "Node A" #FFFFFF
+
+1) Encryption (optional)
+
+2) Erasure code (optional)
+
+3) Forms objects (divides the file into fix-sized 
+  elements)
+
+5) Selects group of Hosts by the actual Network Map,
+    используя Функцию размещения
+
+endrnote
+
+||10||
+
+group For each object
+
+||25||
+
+ "Node A" ->  "Node A" : Forms Metadata for each object: \na fixed header and \nextended type headers
+activate "Node A"
+deactivate "Node A"
+
+"Node A" -> "Placement Group" : Uploads objects
+
+
+"Node A" <-> "Placement Group" : Data Validation of the uploaded \nobjects (described above)                                 
+
+||25||
+
+end 
+
+||25||
+
+
+"Node A" ->  "Node A" : Сформировать или дополнить \nгруппу хранения
+activate "Node A"
+deactivate "Node A"
+
+<- "Node A" : Добавить информацию о группе хранения в Inner Ring
+
+
+@enduml
+
+ 

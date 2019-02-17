@@ -1,0 +1,57 @@
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+
+package "NeoFS" {
+
+actor "Publisher" as consumer
+
+package "OuterRing (Network map)" as ORN_BL {
+
+  
+  actor "Host" as host
+  node "Outer Ring Nodes" as ORN
+  
+  artifact "User data storage" as data
+  artifact "Data Replication" as DR
+  artifact "Rebalance" as RB
+  
+    package "InnerRing" {
+
+       node "Inner Ring Nodes" as IRN
+       artifact "State control and data validation" as inter_data
+
+    }
+  }
+  
+  package "Neo blockchain" as NBN_BL {
+
+    node "Neo Smart Contract" as Contract
+    node "Neo Identity" as NID
+    artifact "Payment" as Payment
+    
+    
+}
+  
+}
+
+
+actor "Client" as client
+
+
+
+
+ORN -[hidden]down-> NBN_BL
+
+client -[hidden]right-> NeoFS
+inter_data <-up- IRN
+
+data <-down- ORN
+DR <-down- ORN
+RB <-down- ORN
+
+Contract -down-> Payment
+
+
+
+@enduml

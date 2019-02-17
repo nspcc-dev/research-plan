@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="343px" preserveAspectRatio="none" style="width:677px;height:343px;" version="1.1" viewBox="0 0 677 343" width="677px" zoomAndPan="magnify"><defs/><g><!--entity root--><rect fill="#FFFFFF" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="48" x="279" y="8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="289" y="30.9951">root</text><!--entity RU--><rect fill="#FFFFFF" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="73" x="515.5" y="104"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="53" x="525.5" y="126.9951">Loc: RU</text><!--entity EU--><rect fill="#FFFFFF" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="72" x="119" y="104"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="52" x="129" y="126.9951">Loc: EU</text><!--entity SSD--><rect fill="#FFFFFF" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="113" x="246.5" y="104"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="93" x="256.5" y="126.9951">Storege: SSD</text><!--entity City--><rect fill="#FFFFFF" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="89" x="54.5" y="200"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="64.5" y="222.9951">City: Milan</text><!--entity N4--><rect fill="#FFFFFF" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="70" x="6" y="296"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="16" y="318.9951">Node 4</text><!--entity N5--><rect fill="#FFFFFF" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="70" x="111" y="296"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="121" y="318.9951">Node 5</text><!--entity N6--><rect fill="#FFFFFF" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="70" x="216" y="296"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="226" y="318.9951">Node 6</text><!--entity N8--><rect fill="#FFFFFF" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="70" x="321" y="296"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="331" y="318.9951">Node 8</text><!--entity N9--><rect fill="#FFFFFF" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="70" x="426" y="296"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="436" y="318.9951">Node 9</text><!--entity N10--><rect fill="#FFFFFF" height="36.2969" rx="35" ry="35" style="stroke: #000000; stroke-width: 1.5;" width="79" x="531.5" y="296"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="541.5" y="318.9951">Node 10</text><!--link root to RU--><path d="M327.329,36.184 C369.769,52.206 457.799,85.438 510.184,105.214 " fill="none" id="root-RU" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="515.14,107.085,508.1328,100.1641,510.4622,105.3191,505.3073,107.6485,515.14,107.085" style="stroke: #383838; stroke-width: 1.0;"/><!--link root to EU--><path d="M278.892,42.312 C253.623,58.361 213.827,83.637 186.183,101.195 " fill="none" id="root-EU" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="181.855,103.944,191.5964,102.4934,186.0751,101.2625,187.306,95.7412,181.855,103.944" style="stroke: #383838; stroke-width: 1.0;"/><!--link root to SSD--><path d="M303,44.241 C303,59.479 303,81.807 303,98.458 " fill="none" id="root-SSD" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="303,103.868,307,94.868,303,98.868,299,94.868,303,103.868" style="stroke: #383838; stroke-width: 1.0;"/><!--link EU to City--><path d="M144.729,140.241 C135.493,155.744 121.885,178.586 111.915,195.321 " fill="none" id="EU-City" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="109.206,199.868,117.2481,194.1825,111.7646,195.5722,110.3749,190.0887,109.206,199.868" style="stroke: #383838; stroke-width: 1.0;"/><!--link City to N4--><path d="M88.3619,236.241 C78.7962,251.7441 64.7025,274.5856 54.3764,291.3211 " fill="none" id="City-N4" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="51.5707,295.8683,59.7008,290.3094,54.1962,291.6131,52.8925,286.1085,51.5707,295.8683" style="stroke: #383838; stroke-width: 1.0;"/><!--link City to N5--><path d="M107.621,236.241 C115.372,251.7441 126.793,274.5856 135.161,291.3211 " fill="none" id="City-N5" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="137.434,295.8683,136.9863,286.0296,135.1977,291.3963,129.831,289.6077,137.434,295.8683" style="stroke: #383838; stroke-width: 1.0;"/><!--link City to N6--><path d="M126.526,236.0227 C152.593,252.1433 191.719,276.3392 219.128,293.2895 " fill="none" id="City-N6" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="223.422,295.9454,217.8715,287.8095,219.1695,293.3155,213.6636,294.6135,223.422,295.9454" style="stroke: #383838; stroke-width: 1.0;"/><!--link RU to N8--><path d="M534.261,140.196 C498.111,175.24 416.057,254.7817 377.182,292.4661 " fill="none" id="RU-N8" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="373.558,295.9794,382.8043,292.5875,377.1482,292.4994,377.2363,286.8432,373.558,295.9794" style="stroke: #383838; stroke-width: 1.0;"/><!--link RU to N9--><path d="M546.115,140.214 C538.212,162.692 523.27,203.056 507,236 C497.501,255.2325 484.906,276.0618 475.297,291.201 " fill="none" id="RU-N9" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="472.418,295.7086,480.6344,290.2781,475.1101,291.4952,473.893,285.9708,472.418,295.7086" style="stroke: #383838; stroke-width: 1.0;"/><!--link RU to N10--><path d="M587.089,140.252 C609.31,153.288 636.19,173.475 649,200 C665.847,234.8833 629.874,271.0142 601.352,292.752 " fill="none" id="RU-N10" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="597.205,295.8529,606.8081,293.6666,601.2093,292.8586,602.0173,287.2598,597.205,295.8529" style="stroke: #383838; stroke-width: 1.0;"/><!--link SSD to N4--><path d="M246.292,135.614 C172.048,152.695 49.7815,182.994 37,200 C17.4006,226.078 24.9322,265.9153 32.6301,290.6601 " fill="none" id="SSD-N4" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="34.2655,295.7009,35.2929,285.9058,32.7225,290.9449,27.6834,288.3746,34.2655,295.7009" style="stroke: #383838; stroke-width: 1.0;"/><!--link SSD to N5--><path d="M288.79,140.196 C259.95,175.098 194.636,254.1409 163.346,292.0082 " fill="none" id="SSD-N5" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="160.064,295.9794,168.8805,291.5897,163.249,292.1251,162.7136,286.4936,160.064,295.9794" style="stroke: #383838; stroke-width: 1.0;"/><!--link SSD to N6--><path d="M298.294,140.196 C288.819,174.816 267.458,252.8638 256.999,291.0803 " fill="none" id="SSD-N6" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="255.658,295.9794,261.8918,288.3544,256.9778,291.1567,254.1755,286.2428,255.658,295.9794" style="stroke: #383838; stroke-width: 1.0;"/><!--link SSD to N8--><path d="M307.797,140.196 C317.454,174.816 339.225,252.8638 349.886,291.0803 " fill="none" id="SSD-N8" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="351.252,295.9794,352.6862,286.2355,349.9083,291.1633,344.9805,288.3854,351.252,295.9794" style="stroke: #383838; stroke-width: 1.0;"/><!--link SSD to N9--><path d="M317.3,140.196 C346.324,175.098 412.054,254.1409 443.544,292.0082 " fill="none" id="SSD-N9" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="446.846,295.9794,444.1668,286.502,443.649,292.1351,438.0159,291.6172,446.846,295.9794" style="stroke: #383838; stroke-width: 1.0;"/><!--link SSD to N10--><path d="M327.256,140.196 C376.885,175.381 489.787,255.4239 542.677,292.9199 " fill="none" id="SSD-N10" style="stroke: #383838; stroke-width: 1.0;"/><polygon fill="#383838" points="546.992,295.9794,541.9629,287.5113,542.9129,293.0878,537.3364,294.0378,546.992,295.9794" style="stroke: #383838; stroke-width: 1.0;"/><!--link N4 to N5--><!--link N5 to N6--><!--link N6 to N8--><!--link N8 to N9--><!--link N9 to N10--><!--
+@startuml
+skinparam monochrome true
+skinparam shadowing false
+skinparam ParticipantPadding 95
+
+
+storage root  #white
+storage "Loc: RU" as RU  #white
+storage "Loc: EU" as EU #white
+
+
+storage "Storege: SSD" as SSD #white
+
+storage "City: Milan" as City #white
+
+
+
+
+storage "Node 4" as N4 #white
+storage "Node 5" as N5 #white
+storage "Node 6" as N6 #white
+storage "Node 8" as N8 #white
+storage "Node 9" as N9 #white
+storage "Node 10" as N10  #white
+
+root -down-> RU
+root -down-> EU
+
+
+root -down-> SSD
+
+
+EU -down-> City
+
+
+City -down-> N4
+City -down-> N5
+City -down-> N6
+
+
+RU - -down-> N8
+RU - -down-> N9
+RU - -down-> N10
+
+
+
+
+
+
+SSD - -down-> N4
+SSD - -down-> N5
+SSD - -down-> N6
+SSD - -down-> N8
+SSD - -down-> N9
+SSD - -down-> N10
+
+
+N4 -[hidden]right-> N5
+N5 -[hidden]right-> N6
+N6 -[hidden]right-> N8
+N8 -[hidden]right-> N9
+N9 -[hidden]right-> N10
+
+
+@enduml
+
+PlantUML version 1.2019.01beta8(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.7.0_25-b15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,84 @@
+@startuml
+
+skinparam monochrome true
+skinparam shadowing false
+skinparam ParticipantPadding 95
+'title Message Style - Sequence Diagram
+
+
+storage root #white
+storage "Loc: RU" as RU #white
+storage "Loc: EU" as EU #white
+storage "Loc: US" as US  #white
+
+' storage "Store: HDD" as HDD 
+storage "Storage: SSD" as SSD  #white
+
+storage "City: Milan" as City #white
+
+storage root #white
+
+storage "Node 1" as N1 #white
+storage "Node 2" as N2  #white
+storage "Node 3" as N3 #white
+storage "Node 4" as N4  #white
+storage "Node 5" as N5  #white
+storage "Node 6" as N6  #white
+storage "Node 7" as N7 #white
+storage "Node 8" as N8  #white
+storage "Node 9" as N9 #white
+storage "Node 10" as N10  #white
+
+root -down-> RU
+root -down-> EU
+root -down-> US
+
+' root -down-> HDD
+root -down-> SSD
+
+
+EU -down-> City
+
+City -down-> N3
+City -down-> N4
+City -down-> N5
+City -down-> N6
+
+RU --down-> N7
+RU --down-> N8
+RU --down-> N9
+RU --down-> N10
+
+
+US --down-> N1
+US --down-> N2
+
+
+' HDD --down-> N1
+' HDD --down-> N3
+' HDD --down-> N5
+' HDD --down-> N7
+' HDD --down-> N9
+SSD --down-> N2
+SSD --down-> N4
+SSD --down-> N5
+SSD --down-> N6
+SSD --down-> N8
+SSD --down-> N9
+SSD --down-> N10
+
+N1 -[hidden]right-> N2
+N2 -[hidden]right-> N3
+N3 -[hidden]right-> N4
+N4 -[hidden]right-> N5
+N5 -[hidden]right-> N6
+N6 -[hidden]right-> N7
+N7 -[hidden]right-> N8
+N8 -[hidden]right-> N9
+N9 -[hidden]right-> N10
+
+
+' SSD -[hidden]right-> HDD
+
+
+@enduml
